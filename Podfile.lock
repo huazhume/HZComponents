@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - HZLogining (0.1.0):
+    - HZNetworking
+  - HZNetworking (0.1.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - HZLogining (from `Dependents/HZLogining`)
+  - HZNetworking (from `Dependents/HZNetworking`)
+  - YYText (= 1.0.7)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - YYText
+
+EXTERNAL SOURCES:
+  HZLogining:
+    :path: Dependents/HZLogining
+  HZNetworking:
+    :path: Dependents/HZNetworking
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  HZLogining: b19fd2a1f2ac0a0644500de83ceabc089e9cb552
+  HZNetworking: 28144f8cb6ca0eb6fe43656fe9c3fd4577ff3734
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 2805d763853cdd21955289f181fc967850bd53a6
+
+COCOAPODS: 1.8.4
